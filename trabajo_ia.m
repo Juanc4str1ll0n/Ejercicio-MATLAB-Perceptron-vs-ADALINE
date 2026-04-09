@@ -4,12 +4,10 @@
 
 clear; clc; close all;
 
-fprintf('==============================================\n');
 fprintf('  CLASIFICACIÓN DE FRUTAS — Agroindustria\n');
 fprintf('  Perceptrón vs ADALINE\n');
-fprintf('==============================================\n\n');
 
-%  PASO 1: DEFINICIÓN DE DATOS DE ENTRENAMIENTO
+% DEFINICIÓN DE DATOS DE ENTRENAMIENTO
 
 P = [180   195  220  240  210  185  230  200  ...  
      120   130  145  160  135  125  155  140; ... 
